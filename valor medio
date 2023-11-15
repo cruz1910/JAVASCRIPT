@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em HTML</title>
+</head>
+<body>
+
+    <p>A média dos números 15, 25, 35 e 45 é: <span id="resultado"></span></p>
+
+    <script>
+        // Calcula a média dos números
+        var numeros = [15, 25, 35, 45];
+        var soma = numeros.reduce(function(acumulador, numero) {
+            return acumulador + numero;
+        }, 0);
+
+        var media = soma / numeros.length;
+
+        // Exibe o resultado na página
+        document.getElementById("resultado").textContent = media;
+    </script>
+
+</body>
+</html>
