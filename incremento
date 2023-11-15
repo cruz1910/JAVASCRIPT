@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremento em HTML</title>
+</head>
+<body>
+
+    <p>O valor de 99 aumentado em 1 é: <span id="resultado"></span></p>
+
+    <script>
+        // Usa o operador de incremento para aumentar o valor de 99 em 1
+        var numero = 99;
+        numero++;
+
+        // Exibe o resultado na página
+        document.getElementById("resultado").textContent = numero;
+    </script>
+
+</body>
+</html>
