@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em HTML</title>
+</head>
+<body>
+
+    <p>O resto da divisão de 45 por 6 é: <span id="resultado"></span></p>
+
+    <script>
+        // Calcula o resto da divisão de 45 por 6
+        var resultado = 45 % 6;
+
+        // Exibe o resultado na página
+        document.getElementById("resultado").textContent = resultado;
+    </script>
+
+</body>
+</html>
