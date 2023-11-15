@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em HTML</title>
+</head>
+<body>
+
+    <p>O dobro de 15 é: <span id="resultado"></span></p>
+
+    <script>
+        // Dobra o valor de 15
+        var resultado = 15 * 2;
+
+        // Exibe o resultado na página
+        document.getElementById("resultado").textContent = resultado;
+    </script>
+
+</body>
+</html>
