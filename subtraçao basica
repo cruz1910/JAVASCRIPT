@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em HTML</title>
+</head>
+<body>
+
+    <p>A diferença entre 30 e 10 é: <span id="resultado"></span></p>
+
+    <script>
+        // Calcula a diferença entre 30 e 10
+        var resultado = 30 - 10;
+
+        // Exibe o resultado na página
+        document.getElementById("resultado").textContent = resultado;
+    </script>
+
+</body>
+</html>
