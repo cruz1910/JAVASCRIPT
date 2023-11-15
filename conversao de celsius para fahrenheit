@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Celsius para Fahrenheit em HTML</title>
+</head>
+<body>
+
+    <p>25 graus Celsius são equivalentes a <span id="resultado"></span> Fahrenheit.</p>
+
+    <script>
+        // Converte 25 graus Celsius para Fahrenheit
+        var celsius = 25;
+        var fahrenheit = (celsius * 9/5) + 32;
+
+        // Exibe o resultado na página
+        document.getElementById("resultado").textContent = fahrenheit;
+    </script>
+
+</body>
+</html>
